@@ -55,6 +55,11 @@ names(data2) <- feature_names
 data2 <- cbind(activity_col,data2)
 data2 <- cbind(subject_col,data2)
 
+## Create the final data set
 df <- tibble(data2)
 by_sub <- group_by(df,Subject,Activity)
 final_data <- summarise_all(by_sub,mean)
+
+## Save the final data set in a txt file
+write.table(final_data,file="tidy_data_set.txt")
+View(final_data)
