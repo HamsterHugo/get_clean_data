@@ -11,17 +11,17 @@ y_test <- read.table("UCI HAR Dataset/test/y_test.txt")
 ## Load the column names
 feature_names <- read.table("UCI HAR Dataset/features.txt")
 ## Load the activity labels
-activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
+activity_labels <- c("walking", "walking up", "walking down", "sitting", "standing", "laying")
 ## Load the subject data
 subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt")
 subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt")
 
 ## 2. Step: Merge the data sets
-## Merge the activity colum
+## Merge the activity column
 activity_col <- rbind(y_train,y_test)
 names(activity_col) <- "Activity"
 for (i in 1:6) {
-  activity_col$Activity <- gsub(i,activity_labels[i,2],activity_col$Activity)
+  activity_col$Activity <- gsub(i,activity_labels[i],activity_col$Activity)
 }
 ## Merge the subject column
 subject_col <- rbind(subject_train,subject_test)
