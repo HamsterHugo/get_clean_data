@@ -62,5 +62,5 @@ by_sub <- group_by(df,Subject,Activity)
 final_data <- summarise_all(by_sub,mean)
 
 ## 6. Step: Save the final data set in a txt file
-write.table(final_data,file="tidy_data_set.txt")
+write.table(final_data,file="tidy_data_set.txt",row.name=FALSE)
 View(final_data)
