@@ -12,5 +12,8 @@ The first two columns describe the subject Id and the activity.
 Subject         | The subject Id of the volunteer performing the activity. | Ordinal | None
 Activity | The name of the activity performed by the subject.| Categorical| None
 
-The other 79 variable names are made up of different tokens. They have the following form
-**f Body Acc Mean X**.
+The other 79 variable names are made up of different tokens. The first token is one letter, either a t or an f, which indicates the unit of the variable. The other tokens describe the variable. Each token is explained in the following table:
+
+**Token**| **Description**
+---------|----------------
+t | Abbreviation for time domain signal. It is one of two tokens every variable name starts with. The unit is the standard gravity unit 'g'.
