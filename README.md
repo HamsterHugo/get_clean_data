@@ -18,6 +18,19 @@ It contains the following files:
 exercise,  
 - the *run_analysis.R* file, that generated the *tidy_data_set.txt* file.
 
+## The Analysis
+The *run_analysis.R* file creates the tidy data set from the raw data in six steps:
+- Step 1: The training and test data are loaded together with the activity and subject columns for the training and test sets.  
+- Step 2: The data sets are merged and the mean and standard deviation measurements are extracted. Furthermore, the Ids in the activity column are replaced with the activity labels.  
+- Step 3: The variables are labeled with descriptive names.  
+- Step 4: Add the subject and activity column to the data set.  
+- Step 5: Create the final tidy data set.  
+- Step 6: Save the tidy data set in the file *final_tidy_data.txt* and view the data.
+
+OS: Windows 10
+
+Version: R version 4.1.0 (2021-05-18)
+
 # The data set
 
 The file *final_data_set.txt* contains a table with 180 rows and 81 columns.

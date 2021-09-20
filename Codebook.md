@@ -33,16 +33,3 @@ Z | Indicates that the measurement was taken along the z axis.
 
 The study is about human activity recognition using smartphones dataset. A group of 30 volunteers wearing a smart phone performed six activities, namely laying, sitting, standing, walking, walking upstairs and walking downstairs. The smart phone is of type Samsung Galaxy S II. Its embedded accelerometer and gyroscope captured 3-axial linear acceleration and 3-axial angular velocity at a frequency of 50 Hz. The sensor signals were pre-processed by applying noise filters. Further more, the signals were decomposed into a body acceleration and a gravity part. Finally, the data were normalized to the interval [-1,1] and randomly partitioned into a training and a test set.
 According to the Assignment it was the task merge the training and test data set and to extract all measurements which were means or standard deviations. Finally one has to create a tidy data set which summarize the average of these measurements for each subject and activity.
-
-## The Analysis
-The *run_analysis.R* file creates the tidy data set from the raw data in six steps:
-- Step 1: The training and test data are loaded together with the activity and subject columns for the training and test sets.  
-- Step 2: The data sets are merged and the mean and standard deviation measurements are extracted. Furthermore, the Ids in the activity column are replaced with the activity labels.  
-- Step 3: The variables are labeled with descriptive names.  
-- Step 4: Add the subject and activity column to the data set.  
-- Step 5: Create the final tidy data set.  
-- Step 6: Save the tidy data set in the file *final_tidy_data.txt* and view the data.
-
-OS: Windows 10
-
-Version: R version 4.1.0 (2021-05-18)
