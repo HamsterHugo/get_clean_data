@@ -37,7 +37,7 @@ According to the Assignment it was the task merge the training and test data set
 ## The Analysis
 The *run_analysis.R* file creates the tidy data set from the raw data in six steps:
 - Step 1: The training and test data are loaded together with the activity and subject columns for the training and test sets.  
-- Step 2: The data sets are merged and the mean and standard deviation measurements are extracted. Furthermore, the Id in the activity column are replaced with the activity labels.  
+- Step 2: The data sets are merged and the mean and standard deviation measurements are extracted. Furthermore, the Ids in the activity column are replaced with the activity labels.  
 - Step 3: The variables are labeled with descriptive names.  
 - Step 4: Add the subject and activity column to the data set.  
 - Step 5: Create the final tidy data set.  
