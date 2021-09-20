@@ -28,6 +28,7 @@ The *run_analysis.R* file creates the tidy data set from the raw data in six ste
 - Step 6: Save the tidy data set in the file *final_tidy_data.txt* and view the data.
 
 OS: Windows 10
+
 Version: R version 4.1.0 (2021-05-18)
 
 # The data set
