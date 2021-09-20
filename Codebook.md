@@ -19,4 +19,8 @@ The other tokens describe the variable. Each token is explained in the following
 **Token**| **Description**
 ---------|----------------
 t | Abbreviation for time domain signal. It is one of two tokens every variable name starts with and indicates the unit of the variable. For this one the unit is the standard gravity unit 'g'.
-f | Abbreviation for frequency domain signals. It is one of two tokens every variable name starts with and indicates the unit of the variable. For this one the unit is radiants/second.
+f | Abbreviation for frequency domain signals. It means that a Fast Fourier Transformation was applied. It is one of two tokens every variable name starts with and indicates the unit of the variable. For this one the unit is radiants/second.
+Body | The signal which goes back to the body part of the activity. It is one of two components measured by the smart phone.
+Gravity | The signal which goes back to the gravity part of the activity. It is one of two components measured by the smart phone.
+Acc | Abbreviation for accelerometer. It indicates that the measurement was captured by the accelerometer of the smart phone.
+Gyro | Abbreviation for gyroscope. It indicates that the measuremnt was captured by the gyroscope of the smart phone.
