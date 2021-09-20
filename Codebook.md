@@ -1,8 +1,4 @@
-# Codebook
-
-This codebook describes the tidy data set and its descriptive variable names.
-
-## The variable names
+## Codebook
 
 The first two columns describe the subject Id and the activity.
 
@@ -32,3 +28,8 @@ Freq | Abbreviation for frequency. Appears only in combination with Mean. It sta
 X | Indicates that the measurement was taken along the x axis.
 Y | Indicates that the measurement was taken along the y axis.
 Z | Indicates that the measurement was taken along the z axis.
+
+## Study design
+
+The study is about human activity recognition using smartphones dataset. A group of 30 volunteers wearing a smart phone performed six activities, namely laying, sitting, standing, walking, walking upstairs and walking downstairs. The smart phone is of type Samsung Galaxy S II. Its embedded accelerometer and gyroscope captured 3-axial linear acceleration and 3-axial angular velocity at a frequency of 50 Hz. The sensor signals were pre-processed by applying noise filters. Further more, the signals were decomposed into a body acceleration and a gravity part. Finally the data were normalized to the interval [-1,1] and randomly partitioned into a training and a test set.
+According to the Assignment it was the task merge the training and test data set and to extract all measurements which were means or standard deviations. Finally one has to create a tidy data set which summarize the average of these measurements for each subject and activity.
