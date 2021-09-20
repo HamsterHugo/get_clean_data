@@ -24,3 +24,8 @@ Body | The signal which goes back to the body part of the activity. It is one of
 Gravity | The signal which goes back to the gravity part of the activity. It is one of two components measured by the smart phone.
 Acc | Abbreviation for accelerometer. It indicates that the measurement was captured by the accelerometer of the smart phone.
 Gyro | Abbreviation for gyroscope. It indicates that the measuremnt was captured by the gyroscope of the smart phone.
+Jerk | Indicates that the measurement was derived in time to obtain the Jerk signal.
+Mag | Abbreviation of Magnitude. Gives the magnitude of the measurement calculated using the Euclidean norm.
+Mean | Stands for the mean value of the measurement.
+Std | Abbreviation for Standard deviation.
+Freq | Abbreviation for frequency. Appears only in combination with Mean. It stands for the weighted average of the frequency components to obtain a mean frequency.
