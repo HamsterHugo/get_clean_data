@@ -29,3 +29,6 @@ Mag | Abbreviation of Magnitude. Gives the magnitude of the measurement calculat
 Mean | Stands for the mean value of the measurement.
 Std | Abbreviation for Standard deviation.
 Freq | Abbreviation for frequency. Appears only in combination with Mean. It stands for the weighted average of the frequency components to obtain a mean frequency.
+X | Indicates that the measurement was taken along the x axis.
+Y | Indicates that the measurement was taken along the y axis.
+Z | Indicates that the measurement was taken along the z axis.
