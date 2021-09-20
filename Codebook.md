@@ -16,4 +16,4 @@ The other 79 variable names are made up of different tokens. The first token is 
 
 **Token**| **Description**
 ---------|----------------
-t | Abbreviation for time domain signal. It is one of two tokens every variable name starts with. The unit is the standard gravity unit 'g'.
+t | Abbreviation for time domain signal. It is one of two tokens every variable name starts with and indicates the unit of the variable. For this one the unit is the standard gravity unit 'g'.
